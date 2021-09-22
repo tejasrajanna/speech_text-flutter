@@ -86,7 +86,7 @@ class _AudioRecognizeState extends State<AudioRecognize> {
       encoding: AudioEncoding.LINEAR16,
       model: RecognitionModel.basic,
       enableAutomaticPunctuation: true,
-      sampleRateHertz: 16000,
+      sampleRateHertz: 8000,
       languageCode: 'en-US');
 
   Future<void> _copyFileFromAssets(String name) async {
