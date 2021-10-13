@@ -38,9 +38,13 @@ class _AudioRecognizeState extends State<AudioRecognize> {
     setState(() {
       recognizing = true;
     });
+    
+  //Authentication via service account   
     final serviceAccount = ServiceAccount.fromString(
         '${(await rootBundle.loadString('assets/protean-garage-325704-b76501b25a16.json'))}');
     final speechToText = SpeechToText.viaServiceAccount(serviceAccount);
+    
+    
     final config = _getConfig();
     final audio = await _getAudioContent('test.wav');
 
