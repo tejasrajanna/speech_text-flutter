@@ -256,11 +256,25 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.4"
+  rxdart:
+    dependency: "direct main"
+    description:
+      name: rxdart
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.25.0"
   sky_engine:
     dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.99"
+  sound_stream:
+    dependency: "direct main"
+    description:
+      name: sound_stream
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.0"
   source_span:
     dependency: transitive
     description:
